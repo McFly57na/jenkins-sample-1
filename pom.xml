@@ -49,21 +49,6 @@
 			<id>nexus-releases</id>
 			<url>http://130.61.157.242:8081/repository/maven-releases/</url>
 		</repository>	
-		<repositories>
-			<repository>
-				<id>maven-group</id>
-				<url>http://130.61.157.242:8081/repository/maven-public/</url>
-			</repository>
-		</repositories>
-		<distributionManagement>
-			<snapshotRepository>
-				<id>nexus-snapshots</id>
-				<url>http://130.61.157.242:8081/repository/maven-snapshots/</url>
-			</snapshotRepository>
-			<repository>
-				<id>nexus-releases</id>
-				<url>http://130.61.157.242:8081/repository/maven-releases/</url>
-			</repository>
 		</distributionManagement>
 
 	<scm>
